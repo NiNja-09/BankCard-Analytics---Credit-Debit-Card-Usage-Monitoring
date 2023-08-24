@@ -3,23 +3,23 @@ The "BankCard Analytics - Credit & Debit Card Usage Monitoring" project is a com
 
 # Workflow:
 
-Data Collection through Web Scraping:
+  1. Data Collection through Web Scraping:
 
 The project began by scraping data from the Reserve Bank of India's website, specifically targeting the last 10 months of data. Python's BeautifulSoup library was employed to extract the necessary data from the website, and the extracted data was then downloaded to the local machine.
 Skills Used: Python, BeautifulSoup, web scraping.
 website - https://www.rbi.org.in/Scripts/ATMView.aspx
 
-Data Cleaning and Transformation in Excel:
+  2. Data Cleaning and Transformation in Excel:
 
 Upon downloading the data, it was observed that certain issues needed to be addressed. The data in Excel files underwent a thorough cleaning process, guided by a set of rules to ensure uniformity and reliability. This included deleting irrelevant columns, unmerging cells, aggregating transactions, converting values to Indian Rupees (₹), and eliminating rows with empty values. Additionally, the data structure was modified to differentiate between different banks and their respective bank types.
 Skills Used: Excel, data cleaning, data transformation, macros.
 
-Data Consolidation:
+  3. Data Consolidation:
 
 After cleaning and structuring the data from multiple files, the individual files were consolidated into a single file. An extra column was added to indicate the respective month and year for each data entry, enhancing the dataset's interpretability and facilitating temporal analysis.
 Skills Used: Excel, data consolidation.
 
-Data Visualization and Dashboard Creation in Tableau:
+  4. Data Visualization and Dashboard Creation in Tableau:
 
 The consolidated dataset was then imported into Tableau for advanced data visualization. The Tableau platform enabled the creation of interactive dashboards that showcased various dimensions of credit and debit card usage. Different visualizations were designed to represent metrics such as the number of cards issued, transaction volumes, spending, spend per card, average transaction size, and market share based on different factors.
 Skills Used: Tableau, data visualization, dashboard creation.
